@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/suyenshuo/Downloads/gameserver/gameserver/gameserver.csproj": {}
+  },
+  "projects": {
+    "/Users/suyenshuo/Downloads/gameserver/gameserver/gameserver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/suyenshuo/Downloads/gameserver/gameserver/gameserver.csproj",
+        "projectName": "gameserver",
+        "projectPath": "/Users/suyenshuo/Downloads/gameserver/gameserver/gameserver.csproj",
+        "packagesPath": "/Users/suyenshuo/.nuget/packages/",
+        "outputPath": "/Users/suyenshuo/Downloads/gameserver/gameserver/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/suyenshuo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
